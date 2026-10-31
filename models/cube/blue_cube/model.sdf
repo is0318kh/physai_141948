@@ -20,7 +20,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-		<mesh><uri>/home/ubuntu/physai_umauma06/models/cube/blue_cube/meshes/blue_cube.stl</uri></mesh>
+		<mesh><uri>/home/ubuntu/physai_141948/models/cube/blue_cube/meshes/blue_cube.stl</uri></mesh>
         </geometry>
         <material>
           <ambient>0.1 0.2 0.8 1</ambient>
