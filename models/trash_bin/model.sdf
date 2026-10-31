@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <model name="trash_bin">
+    <static>true</static>
+    <link name="link">
+      <collision name="bottom">
+        <pose>0 0 0.0025 0 0 0</pose>
+        <geometry><box><size>0.10 0.10 0.005</size></box></geometry>
+      </collision>
+      <collision name="wall_py">
+        <pose>0 0.0475 0.02 0 0 0</pose>
+        <geometry><box><size>0.10 0.005 0.04</size></box></geometry>
+      </collision>
+      <collision name="wall_ny">
+        <pose>0 -0.0475 0.02 0 0 0</pose>
+        <geometry><box><size>0.10 0.005 0.04</size></box></geometry>
+      </collision>
+      <collision name="wall_px">
+        <pose>0.0475 0 0.02 0 0 0</pose>
+        <geometry><box><size>0.005 0.09 0.04</size></box></geometry>
+      </collision>
+      <collision name="wall_nx">
+        <pose>-0.0475 0 0.02 0 0 0</pose>
+        <geometry><box><size>0.005 0.09 0.04</size></box></geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh><uri>/home/ubuntu/physai_umauma06/models/trash_bin/meshes/trash_bin.stl</uri></mesh>
+        </geometry>
+        <material>
+          <ambient>0.7 0.7 0.7 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
+
