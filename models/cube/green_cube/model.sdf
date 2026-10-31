@@ -12,7 +12,7 @@
       </inertial>
       <collision name="collision">
         <geometry>
-          <box><size>0.05 0.05 0.05</size></box>
+          <box><size>0.03 0.03 0.03</size></box>
         </geometry>
         <surface>
           <friction><ode><mu>5.0</mu><mu2>5.0</mu2></ode></friction>
@@ -20,7 +20,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-		<mesh><uri>/home/ubuntu/physai_umauma06/models/cube/green_cube/meshes/green_cube.stl</uri></mesh>
+		<mesh><uri>/home/ubuntu/physai_141948/models/cube/green_cube/meshes/green_cube.stl</uri></mesh>
         </geometry>
         <material>
           <ambient>0.1 0.7 0.1 1</ambient>

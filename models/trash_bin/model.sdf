@@ -25,7 +25,7 @@
       </collision>
       <visual name="visual">
         <geometry>
-          <mesh><uri>/home/ubuntu/physai_umauma06/models/trash_bin/meshes/trash_bin.stl</uri></mesh>
+          <mesh><uri>/home/ubuntu/physai_141948/models/trash_bin/meshes/trash_bin.stl</uri></mesh>
         </geometry>
         <material>
           <ambient>0.7 0.7 0.7 1</ambient>

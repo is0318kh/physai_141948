@@ -2,7 +2,7 @@
 import struct
 from pathlib import Path
 
-BLOCK = 0.05
+BLOCK = 0.03
 BIN_W, BIN_H, BIN_T = 0.10, 0.04, 0.005
 BIN_PARTS = [
     ((BIN_W, BIN_W, BIN_T), (0, 0, BIN_T / 2)),                                 # 底

@@ -1,0 +1,9 @@
+build/
+install/
+log/
+src/crane_plus
+.DS_Store
+__pycache__/
+*.pyc
+*.pt
+*.png
